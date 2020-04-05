@@ -1,8 +1,8 @@
-## HomeSeer HS3 Docker Image
+## HomeSeer HS4 Docker Image
 
 This image containerizes the HomeSeer HS3 home automation software. 
 
-Current HomeSeer version: **HS3 3.0.0.548**
+Current HomeSeer version: **HS3 4.0.4.0**
 
 ### Running the HomeSeer Container
 
