@@ -70,6 +70,6 @@ Many improvements to this image have been made by @E1iTeDa357, including the add
 18 January 2018: Initial release.  
 19 January 2018: Added mono-devel.  
 21 February 2018: Refactored latest, changed base image to mono:5.  
-6 March 2019: Bumped to HS3 3.0.0.500; added Avahi and dbus; changed to s6-overlay; pinned Mono base image to prevent unintended breakage. 
+6 March 2019: Bumped to HS3 3.0.0.500; added Avahi and dbus; changed to s6-overlay; pinned Mono base image to prevent unintended breakage.  
 4 April 2020 - upddate to 4.0.4.0 nad corresponding mono.
 
