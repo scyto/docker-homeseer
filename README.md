@@ -17,7 +17,7 @@ docker run -d \
     -p 10401:10401 \
     -p 11000:11000 \
     --device /dev/ttyUSB0 \
-    marthoc/homeseer:latest
+    docker-homeseer4beta:latest
 ```
 #### Options:  
 `--name homeseer`: Names the container "homeseer".  
