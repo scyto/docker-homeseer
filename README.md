@@ -29,7 +29,7 @@ docker run -d \
 `-p 10401:10401`: Port 10401, used by speaker clients.  
 `-p 11000:11000`: Port 11000, used by the ASCII interface.  
 `--device /dev/ttyUSB0`: Pass a USB device at /dev/ttyUSB0 (i.e. a USB Z-Wave interface) into the container; replace `ttyUSB0` with the actual name of your device (e.g. ttyUSB1, ttyACM0, etc.).  
-`marthoc/homeseer:latest`: See below for descriptions of available image tags.
+`scyto/docker-homeseer4beta`: See below for descriptions of available image tags.
 
 ### Available Image Tags
 
