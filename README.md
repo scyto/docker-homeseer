@@ -1,8 +1,8 @@
-## HomeSeer HS4 Docker Image
+## HomeSeer HS4 Beta Docker Image
 
 This image containerizes the HomeSeer HS3 home automation software. 
 
-Current HomeSeer version: **HS4 4.0.7.0**
+Current HomeSeer Beta version: **HS4 4.0.7.0**
 
 ### Running the HomeSeer Container
 
@@ -44,7 +44,7 @@ This image will be updated shortly after a new version of HomeSeer for Linux is 
 
 `docker stop homeseer` [or, whatever name you gave to the container via the `--name` parameter]
 `docker rm homeseer` [or, whatever name you gave to the container via the `--name` parameter]
-`docker pull marthoc/homeseer`
+`docker pull scyto/docker-homeseer4beta`
 
 ...then re-create your container using the same command-line parameters used at first run. The new HomeSeer version will be downloaded and installed when the container is run. Your existing user data, plugins, etc., will be preserved.
 
@@ -71,5 +71,5 @@ Many improvements to this image have been made by @E1iTeDa357, including the add
 19 January 2018: Added mono-devel.  
 21 February 2018: Refactored latest, changed base image to mono:5.  
 6 March 2019: Bumped to HS3 3.0.0.500; added Avahi and dbus; changed to s6-overlay; pinned Mono base image to prevent unintended breakage.  
-4 April 2020 - upddate to 4.0.4.0 nad corresponding mono.
-
+4 April 2020: update to 4.0.4.0 and mono 5.20.1.19.
+6 June  2020: update to 4.0.7.0
